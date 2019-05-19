@@ -1,31 +1,67 @@
-<html>
-<meta charset="UTF-8">
-<title> REGISTRARSE </title>
-<link rel="stylesheet" href="">
-<head>
-</head>
-<body>
-  <div class="container">
-    <h1> REGISTRARSE </h1>
-    <form class="registro" action="" method="">
-      <h4> Nombre:
-        <input type="email" name="correo" value="" placeholder="">
-      </h4 required>
-      <h4> Apellido:
-        <input type="email" name="correo" value="" placeholder="" required>
-      </h4>
-      <h4> E-mail:
-        <input type="email" name="correo" value="" placeholder="" required>
-      </h4>
-      <h4> Nombre de usuario:
-        <input type="text" name="correo" value="" placeholder="" required>
-      </h4>
-      <h4> Contraseña:
-        <input type="password" name="contraseña" value="" placeholder="" required>
-      </h4>
-      <h4> Repetir contraseña:
-        <input type="password" name="contraseña" value="" placeholder="" required>
-      </h4>
-      <button type="button" name="button"> Enviar </button>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registrate | Wanderlust</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/register.css">
+  </head>
+  <body>
+    <header>
+        <div class="container-fluid">
+        <nav class="d-flex d-flex align-items-center justify-content-between">
+          <div>
+            <img src="img/logo.png" alt="" class="logo-img"><br> <h6> w a n d e r l u s t </h6>
+          </div>
+            <ul class="nav justify-content-end">
+              <li class="nav-item li-nav">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item li-nav">
+                <a class="nav-link" href="dudas.html">Preguntas Frecuentes</a>
+              </li>
+              <li class="nav-item li-nav">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item li-nav">
+                <a class="nav-link" href="registro.html">Registro</a>
+              </li>
+            </ul>
+      </nav>
+    </header>
+  <article class="formulario">
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Nombre</label>
+        <input type="nombre" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresar nombre">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Apellido</label>
+        <input type="apellido" class="form-control" id="exampleInputPassword1" placeholder="Ingresar apellido">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">E-mail</label>
+        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Ingresar e-mail">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Nombre de usuario</label>
+        <input type="user" class="form-control" id="exampleInputPassword1" placeholder="Ingresar nombre de usuario">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Contraseña</label>
+        <input type="user" class="form-control" id="exampleInputPassword1" placeholder="Ingresar contraseña">
+      </div>
+      <small id="emailHelp" class="form-text text-muted">Tu contraseña debe tener de 8-20 caracteres y no contener caracteres especiales.</small>
+      <button type="submit" class="btn btn-primary buttonregister">Registrarme</button>
     </form>
-  </div>
+  </article>
+  </body>
+
+  <footer>
+    <p>® 2019, wanderlust.com.ar SA. Todos los derechos reservados. </p>
+  </footer>
+</html>
